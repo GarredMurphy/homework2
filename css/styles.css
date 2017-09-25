@@ -1,0 +1,43 @@
+h1 {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+body {
+    color:yellow;
+    background: radial-gradient(circle, purple, black);
+}
+header, main, nav, footer {
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 1.4;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: yellow;
+    opacity: 0.5;
+}
+nav a:hover{
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+    opacity: 1;
+}
+
+
+footer {
+    font-size: 1em;
+    clear: left;
+    color: blue;
+}
+
+
+#current {
+    font-size-adjust: .5;
+}
